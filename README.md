@@ -22,8 +22,6 @@
 
 <p align="right">(<a href="#topage">back to top</a>)</p>
 
+<br/>
+<br/>
 <img alt="koskasmail_neon.png" src="https://koskasmail.github.io/me/me/java/java_neon.png">
-
-<p align="right">(<a href="#topage">back to top</a>)</p>
-<br/>
-<br/>
