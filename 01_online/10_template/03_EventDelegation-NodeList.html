@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title> Selector demo</title>
+<style>
+.clickMe{
+color:blue;
+}
+</style>
+</head>
+<body>
+<h1>NodeList.on demo</h1>
+<div id="myDiv">
+<button id="button1" name="buttonTest1" class="clickMe">Click me1</button>
+<button id="button2" name="buttonTest2" class="clickMe">Click me2</button>
+<button id="button3" name="buttonTest3" class="clickMe">Click me3</button>
+</div>
+<script src="http://ajax.googleapis.com/ajax/libs/dojo/1.12.1/dojo/dojo.js" data-dojo-config="async:true"></script>
+
+<script>
+require(["dojo/dom","dojo/query","dojo/on","dojo/domReady!"], function(dom,query,on) {
+var myDiv = dom.byId('myDiv');
+on(myDiv,".clickMe:click",function(e){
+alert(e.target.id);
+});
+
+});
+</script>
+</body>
+</html>

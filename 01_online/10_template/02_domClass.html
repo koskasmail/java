@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+
+<style>
+
+.redText{
+
+color:red;
+
+}
+
+.greenText{
+
+color:green;
+
+}
+
+.smallText{
+
+font-size:5px;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<h1 id="testNode"> This is a domClass test </h1>
+
+<button id="addRed">AddRedColor</button>
+<button id="hasRed">CheckRedColor</button>
+<button id="remRed">RemoveRedColor</button>
+<button id="togGreen">ToggleGreenClass</button>
+<button id="repRedGreen">ReplaceRedWithGreen</button>
+<button id="smAdd">AddSmallText</button>
+
+<script src="http://ajax.googleapis.com/ajax/libs/dojo/1.12.1/dojo/dojo.js" data-dojo-config="async:false"></script>
+
+<script>
+require(["dojo/dom","dojo/on","dojo/dom-class"],function(dom,on,domClass){
+
+on(dom.byId('addRed'),"click",function(){
+
+domClass.add(dom.byId('testNode'),'redText');
+
+});
+
+on(dom.byId('smAdd'),"click",function(){
+
+domClass.add(dom.byId('testNode'),'smallText');
+
+});
+
+
+on(dom.byId('remRed'),"click",function(){
+
+domClass.remove(dom.byId('testNode'),'redText');
+
+});
+
+on(dom.byId('hasRed'),"click",function(){
+
+alert(domClass.contains(dom.byId('testNode'),'redText'));
+
+});
+
+on(dom.byId('togGreen'),"click",function(){
+
+domClass.toggle(dom.byId('testNode'),'greenText');
+
+});
+
+on(dom.byId('repRedGreen'),"click",function(){
+
+domClass.replace(dom.byId('testNode'),'greenText','redText');
+
+});
+
+});
+</script>
+
+</body>
+
+</html>

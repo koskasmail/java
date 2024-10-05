@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>DOJO pub/sub </title>
+    </head>
+    <body>
+	<h1> Please click a button </h1>
+	
+	<button id="one">button1 </button>
+	<div id="testNode"> </div>
+	
+	<script src="http://ajax.googleapis.com/ajax/libs/dojo/1.12.1/dojo/dojo.js" data-dojo-config="async:true"></script>
+	<script>
+	require(["dojo/dom","dojo/on","dojo/topic","dojo/domReady!"],function(dom,on,topic){
+	
+	var btn1 = dom.byId("one");
+	var testNode = dom.byId("testNode");
+	
+	topic.subscribe("test/topic",function(a){
+	alert(a.t2);
+	});
+	
+	topic.subscribe("test/topic",function(b){
+	testNode.innerHTML = "I recieved the value:"+b.t3;
+	});
+	
+	on(btn1,"click",function(){
+		topic.publish("test/topic",{t1:"Testing",t2:"testingAgain",t3:"testingSame"});
+	
+	});
+	});
+	</script>
