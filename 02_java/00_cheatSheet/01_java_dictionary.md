@@ -18,8 +18,10 @@
 ## B
 ## C
 ###  class
+* Every program in Java must have a `class`.
+* Every line of code that can actually run needs to be inside a `class`.
 * A "class" is the blueprint from which individual objects are created.
-* A class: every line of code in java need to be inside a "Class". 
+* 
 * example
 ```
 public class A_javaBasicVariable {
