@@ -1,16 +1,18 @@
 <a name="topage"></a>
 
-# 03_java_naming_converntion.md
+# 03_java_naming_converntion
 
-### C
-* class
-* 
+## C
+### class
+* class name format: start with `Capital Letter` (Uppercase).
+   * Example: HelloWorld, calculator, Etc.
 
+-----
 
-### P
-* package
-   * name format: `lower-case`
-      * example: utilities, hr(human resource), sales, java_core, etc.
+## P
+#### package
+* name format: `lower-case`
+   * example: utilities, hr(human resource), sales, java_core, etc.
 
 
 -----
