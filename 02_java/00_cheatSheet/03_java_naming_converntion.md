@@ -18,7 +18,7 @@
 
 ## P
 #### package
-* name format: `lower-case`
+* name format: start with `lower-case`
    * example: utilities, hr(human resource), sales, java_core, etc.
 
 
