@@ -1,11 +1,16 @@
 <a name="topage"></a>
 
-# 02.naming Converntion
+##### >>>> TODO <<<<
+
+* create a new folder "dictionary"
+* move "02_naming_Converntion.md" content to it
+* etc
+
+# 02_naming Converntion
 
 ## Naming_convention
 
 ### lowercase 
-- example: package.name , method.name
 
 ### UPPERCASE - 
 - example: Class.Name.
