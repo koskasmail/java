@@ -1,0 +1,281 @@
+<a name="topage"></a>
+
+# 01.02_first_program
+
+#### example: first prgram
+
+```
+package com.java.core.hr;
+
+public class Main {
+	public static void main(String[] args) {
+		System.out.println("Hello World");
+	}
+}
+```
+
+##### output
+
+```
+Hello World
+```
+
+-----
+
+## 01. java package -
+
+#### example: package name as a subject: `hr`
+
+```
+package com.java.core.hr;
+```
+
+*  package or `package structure`
+* `package structure` - is a file structure that organize different files in your program.
+* `package` is a `namespace` that organizes a set of related `class` and `interfaces`. (like folder/directory to files)
+* `root` - top package structure (root) is usually a backward domain name.
+   * `com.myDomain.utilities`
+* a package make the program code classified into different unit of code (subjects).
+   * example: utilities, hr(human resource), sales, java_core, etc.
+
+#### package name as domanin name
+
+```
+com.myDomain.utilities
+```
+
+* java naming convention for a `package` name format: start with `lower-case`
+  ( declare package name with lower case ).
+
+* package name is a `subject` description name or business `description` topic.
+   * example: utilities, hr(human resource), sales, etc.
+
+* a `name` of the program file is
+   * a combination of the `program name` and full package structure of the package is reside in.
+
+#### package
+
+```
+package java_core;
+```
+
+#### Summary
+* package `name`: 
+   * backward domain name + program name -or- description topic name.
+   * package name can be a subject description name -or- business description topic.
+
+-----
+
+## 02. java class
+
+#### example: package and class
+
+```
+package com.java.core.hr;
+
+public class Main {
+
+}
+```
+
+* Every line of code that can actually run needs to be inside a `class`.
+* `Statement` is a single line of code that performs a specific task.
+* class name: describes topic/subject name.
+* java naming convention for a `class` name format: start with `Capital Letter` (Uppercase).
+   * Example: HelloWorld, calculator, Etc.
+* class need to be focus in one subject.
+   * Example: HelloWorld, calculator, Etc.
+* keep your class as small as possible to improve usability and readability.
+* a class consist/contain of one or more `method`.
+
+#### `Statement` inside `class`
+
+```
+package com.java.core.hr;
+
+public class Main {
+	public static void main(String[] args) {
+		System.out.println("Test");
+	}
+}
+```
+
+##### output
+
+```
+Hello World
+```
+
+#### create a class:
+   * class name will start with `Capital Letter`
+      * "Main".
+   * `{` - open curly branch -
+      * define the beginning of the definition of the class 
+   * `}` - closing curly branch -
+      * define the end of the definition of the class
+   * `{ code; }` -
+      * write the code between the `{` -(open curly branch) -and- `}` -(closing curly branch).
+
+   * code Note: `System.out.println("Test");`
+      * write/print output to the console. 
+
+#### Summary
+* Every program in Java must have a `class`.
+* Every line of code that can actually run needs to be inside a `class`.
+* `Statement` is a single line of code that performs a specific task.
+* class name: description one topic/subject name.
+* class name format: start with `Capital Letter` (Uppercase).
+   * Example: HelloWorld, calculator, Etc.
+* a class consist/contain of one or more `method`.
+* Every program starts from the `main` method.
+
+-----
+
+## 03. java method
+
+* a method name: is a word that describe the purpose/topic/subject of the method.
+   * Example: calculate, addTax
+
+* java naming convention for a `method` name format: start with `lower-case`
+   * Example: calculate, addTax
+
+* a class consist/contain of one or more method.
+   * each method archive a purpose/action you can execute inside classes.
+   * each method can operate with number, text, color, sound and more.
+   * each method can call other method (method calling each other).
+
+* java `main()` method start the program, start with the word `main` (main() method.
+   * continued in section `03.01 java main method`
+
+#### example: method name
+
+public void greeting() {
+	System.out.println("Welcome...");
+}   
+ 
+##### output
+
+```
+Welcome...
+```
+  
+ 
+#### create a method:
+
+* method parameters (input fields) declared inside brackets, 
+   between '(' - open brackets -and- ')' - closing brackets.
+   we can declared many method parameters (input fields) between 0-N (3-5 parameters per method recommended). 
+* '{' - open curly branch -  define the beginning of the definition of the method 
+* '}' - closing curly branch -  define the end of the definition of the method
+* '{ code; }' - write the code between the '{' -(open curly branch) -and- '}' -(closing curly branch).
+
+* method parameters - a method parameters is a variable/s inside method definition.
+* method parameters size: 3-5 parameters per method.
+
+* method arguments - when calling a method with input values, we are calling a method with method arguments.
+
+
+
+--- example: method parameters -and- method arguments.
+	<Ex_04_01_class_method>
+    <Ex_04_02_methodParameterArgument>
+
+///JavaNiceStuffExample/src/a_java_core/a_BasicEexample/A_javaBasicVariable.java
+///jcm/com.mydomain.jcm/src/jcm/manual/01.basic/01.jcm.kis.txt
+///jcm/com.mydomain.jcm/src/jcm/manual/01.basic/01.jcm.kis.txt
+///jcm/com.mydomain.jcm/src/jcm/manual/01.basic/01.jcm.txt
+
+
+---/fix------------------------------------------------------------------------^^^
+
+#### `welcome` method
+
+```
+public void welcome() {
+	System.out.println("Welcome");
+}
+```
+
+## 03.01 java `main` method
+
+* Every class contain one or more methods that start with `main` method.
+* Every program starts from the `main` method.
+  
+#### example: main() method template:
+
+```
+public static void main(String[ ] args) {
+
+}
+```
+
+#### create a `main` method:
+
+* `public`: anyone can access it
+* `static`: method can be run without creating an instance of the class containing the main method
+* `void`: method doesn't return any value
+* `main`: the name of the method
+* `String[ ] args` :
+* `{` - open curly branch -
+   * define the beginning of the definition of the method 
+* `}` - closing curly branch -
+   * define the end of the definition of the method
+* The method's parameters are declared inside the parentheses `( )` that follow the name of the method.
+   *  ( String[] args )
+
+```
+public static void main(String[] args) {
+
+}
+```
+
+#### example: package, class, main method
+
+```
+package java_core;
+
+public class HelloWorld {
+
+	public void Welcome() {
+		System.out.println("Welcome");
+	}
+
+	public static void main(String[] args) {
+		System.out.println("Hello World");
+	}
+}
+```
+
+* example: test() method, return nothing :
+ void test()
+ 
+-----
+
+
+---fix------------------------------------------------------------------------VVV
+### 05 import -
+
+#### import 
+* Every program file will reuse an exit code by `importing` that code in to your program files.
+* `import package` will be declared beneath/under the package `declaration name`.
+*  import class file name from a package
+
+\\\\\\\continue\\\\\
+
+```
+	// line 1 // package declaration name
+  com.domain.myJava.example1.shop
+    
+  // line 2 // import class file name "parent" 
+  import com.domain.myJava.example1.book.parent 
+```
+
+### static import - 
+
+
+----- 
+
+  
+<p align="right">(<a href="#topage">back to top</a>)</p>
+<br/>
+<br/>
