@@ -1,6 +1,6 @@
 <a name="topage"></a>
 
-# 03_java_naming_converntion
+# 03_java_naming_convention
 
 ## C
 ### class
