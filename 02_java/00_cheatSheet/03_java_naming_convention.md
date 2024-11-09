@@ -27,6 +27,10 @@
 #### package
 * `package` name format: start with `lower-case`
    * example: utilities, hr(human resource), sales, java_core, etc.
+   
+#### project
+* `project` name format: start with `lower-case`
+   * Example: calculator, bank, atm
 
 -----
 
