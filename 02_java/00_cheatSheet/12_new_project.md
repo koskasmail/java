@@ -23,6 +23,7 @@
     * name: `welcome`
     * => finish
     * `<TIP>:: [welcome] package created under [src]`
+    * `<TIP>:: `package` name format: start with `lower-case`
 
 ----
 
@@ -31,7 +32,7 @@
 * `welcome` => mouse right click => `new` => `class`
 * [new java class] wizard
     * Name: `Hello` => finish
-
+* `<TIP>:: `class` name format: start with `Capital Letter` (Uppercase).
 ----
 
 <p align="right">(<a href="#topage">back to top</a>)</p>
