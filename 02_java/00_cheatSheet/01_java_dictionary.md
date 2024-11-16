@@ -4,20 +4,20 @@
 
 ## A
 
-## access Modifiers attributes: 
-### access Modifiers attributes: private/ public/ default/ protected.
+### 🔥 access Modifiers attributes: 
+#### access Modifiers attributes: private/ public/ default/ protected.
 * `private` - accessible only within the declared class itself.
 * `public` - accessible from any other class.
 * `default` -  no access control modifier available to any other class in the same package.
 * `protected` - like "default" + "subclasses" can access protected variable/method of the superclass.
 
-## attributes 
-### attributes (global variable) 
+### 🔥 attributes 
+#### attributes (global variable) 
 * attributes / variable declaration
 * attributes is a variable inside a class.
 ## B
 ## C
-###  class
+### 🔥 class
 * Every program in Java must have a `class`.
 * Every line of code that can actually run needs to be inside a `class`.
 * A "class" is the blueprint from which individual objects are created.
@@ -34,7 +34,7 @@ public class A_javaBasicVariable {
 ## H
 ## I
 ## J
-### Java
+### 🔥 Java
 * Java is platform-independent - Write once, run anywhere
    * linux, windows, ios... 
 ## K
@@ -43,7 +43,7 @@ public class A_javaBasicVariable {
 ## N
 ## O
 ## P
-### package
+### 🔥 package
 * A package is a "namespace" that organizes a set of related classes and interfaces. (like folder/directory to files)
 * example
 ```
@@ -52,9 +52,9 @@ package a_java_core.a_BasicEexample;
 ## Q
 ## R
 ## S
-### static 
+### 🔥 static 
 *  static variable/method belongs to the class (no need to define an "instance of the class").
-### Statements
+### 🔥 Statements
 * a statement is a single line of code that performs a specific task.
 * example
 ```
@@ -65,8 +65,8 @@ System.out.println(156);
 ## T 
 ## U
 ## V
-## variable - Variables are the data containers that save the data values
-### variable type: byte, short, int, long, float, double, boolean
+### 🔥 variable - Variables are the data containers that save the data values
+#### variable type: byte, short, int, long, float, double, boolean
 
 ## W
 ## X
