@@ -4,14 +4,21 @@
 
 ## C
 ### class
-* `class` name format: start with `Capital Letter` (Uppercase).
-   * Example: HelloWorld, calculator, Etc.
+* `class` name format: start with `Capital Letter` (Uppercase) or PascalCase.
+   * Example: , Etc.
+   * 📍 sample
+      * HelloWorld
+      * calculator
+      * lookup tables
+      * Employee
+      * BankAccount
+      * StudentRecord
 
 -----
 
 ## I
 ### interface 
-* `interface` name format: start with `Capital Letter` (Uppercase).
+* `interface` name format: start with `Capital Letter` (Uppercase) or PascalCase.
    * Example: ***TODO***
 
 -----
