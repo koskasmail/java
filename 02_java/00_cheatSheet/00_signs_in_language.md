@@ -15,9 +15,9 @@
 | # | Hashtag | xxx | xxx |
 | $ | Dollar sign | xxx | xxx |
 | % | Percent sign | xxx | xxx |
-| ^ | Caret | xxx | xxx |
-| & | Ampersand | xxx | xxx |
-| * | Asterisk | xxx | xxx |
+| ^ | Caret | Denotes exponents -or- regular expressions| 2^3 = 8 |
+| & | Ampersand | AND operations | Tom & Jerry |
+| * | Asterisk | multiplication -or- italic text | 5 * 2 = 10 |
 | ( ) | Parentheses | xxx | xxx |
 | [ ] | Brackets | xxx | xxx |
 | { } | Curly braces | xxx | xxx |
