@@ -21,3 +21,6 @@
 | [ ] | Brackets | xxx | xxx |
 | { } | Curly braces | xxx | xxx |
 | xx | xx | xxx | xxx |
+
+* more links
+    * https://github.com/koskasmail/whatAmess/blob/main/dev/00_signs_in_language/java.md
