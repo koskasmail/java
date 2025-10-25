@@ -65,8 +65,9 @@ System.out.println(156);
 ## T 
 ## U
 ## V
-### 🔥 variable - Variables are the data containers that save the data values
-#### variable type: byte, short, int, long, float, double, boolean
+### 🔥 variable - 
+* Variables are `data containers` that save the data values
+     * Variable type: byte, short, int, long, float, double, boolean.
 
 ## W
 ## X
