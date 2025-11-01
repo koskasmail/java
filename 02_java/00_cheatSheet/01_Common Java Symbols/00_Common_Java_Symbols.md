@@ -1,8 +1,6 @@
 <a name="topage"></a>
 
-# 00_signs_in_language
-
-### 🔣 Common Java Symbols and Their Usage
+### 🔣 Common_Java_Symbols
 
 | Symbol | Name                  | Usage Example                          | Description |
 |--------|-----------------------|----------------------------------------|-------------|
@@ -72,3 +70,9 @@ System.out.println(a >> 1); // 0010 → 2
 
 * more links
     * https://github.com/koskasmail/whatAmess/blob/main/dev/00_signs_in_language/java.md
+
+----
+
+<p align="right">(<a href="#topage">back to top</a>)</p>
+<br/>
+<br/>
