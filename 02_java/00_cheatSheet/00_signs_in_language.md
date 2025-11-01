@@ -22,9 +22,6 @@
 | { } | Curly braces | xxx | xxx |
 | xx | xx | xxx | xxx |
 
-
-Here's a list of the most popular **Java syntax symbols (signed characters)** used in programming, along with their typical meanings and usage:
-
 ---
 
 ### 🔣 Common Java Symbols and Their Usage
@@ -63,8 +60,7 @@ Here's a list of the most popular **Java syntax symbols (signed characters)** us
 
 ---
 
-Would you like a printable cheat sheet or a visual diagram of these symbols?
-
+# TODO: create new table
 
 * more links
     * https://github.com/koskasmail/whatAmess/blob/main/dev/00_signs_in_language/java.md
