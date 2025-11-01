@@ -1,6 +1,6 @@
 <a name="topage"></a>
 
-### 🔣 00_Common_Java_Symbols
+### 🔣 00_java_Common_Symbols
 
 | Symbol | Name                  | Usage Example                          | Description |
 |--------|-----------------------|----------------------------------------|-------------|
