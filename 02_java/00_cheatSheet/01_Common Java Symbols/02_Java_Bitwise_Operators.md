@@ -1,6 +1,6 @@
 <a name="topage"></a>
 
-## 🧮 03_Java_Bitwise_Operators
+## 🧮 02_Java_Bitwise_Operators
 
 
 *  `&`    |  Bitwise AND           |  Sets each bit to 1 if both bits are 1                                        | `5 & 3` → `1`                |
