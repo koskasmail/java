@@ -1,6 +1,6 @@
 <a name="topage"></a>
 
-## 🔗 02_Logical_Operators
+## 🔗 01_java_Logical_Operators
 
 * `&&`   |   Logical AND   |   `if (x > 0 && y > 0)`   |   Combines conditions   |
 * `||`   |   Logical OR    |   `if (x > 0 || y > 0)`   |   Combines conditions   |
