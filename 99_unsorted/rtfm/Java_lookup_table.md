@@ -1,24 +1,28 @@
 <a name="topage"></a>
 
-# Java Lookup Table
+# Java_lookup_table
 
-#### **A Java lookup table is a data structure used to map input values to corresponding output values efficiently, often in constant time.** It’s commonly implemented using arrays or maps like `HashMap`.
+ * A Java lookup table is a data structure used to map input values to corresponding output values efficiently, often in constant time.
+ * It’s commonly implemented using arrays or maps like `HashMap`.
+
 ---
 
 ### 🔍 What Is a Lookup Table in Java?
 
-A **lookup table** stores predefined mappings between keys and values. Instead of computing results dynamically, you retrieve them from the table, which improves performance and simplifies code. This is especially useful for:
-
-- Replacing complex `if-else` or `switch` statements
-- Speeding up repetitive calculations
-- Organizing configuration or mapping data
+* A `lookup table` stores predefined mappings between keys and values. 
+* Instead of computing results dynamically, you retrieve them from the table, which improves performance and simplifies code.
+* This is especially useful for:
+   * Replacing complex `if-else` or `switch` statements
+   * Speeding up repetitive calculations
+   * Organizing configuration or mapping data
 
 ---
 
 ### 🧠 Common Implementations
 
 #### 1. **Using Arrays**
-Best for integer-based keys with a fixed range.
+
+* Best for integer-based keys with a fixed range.
 
 ```java
 int[] squareLookup = new int[11];
@@ -29,7 +33,8 @@ System.out.println(squareLookup[5]); // Output: 25
 ```
 
 #### 2. **Using HashMap**
-Ideal for non-integer or sparse keys.
+
+* Ideal for non-integer or sparse keys.
 
 ```java
 Map<String, String> countryCodes = new HashMap<>();
@@ -39,7 +44,8 @@ System.out.println(countryCodes.get("IL")); // Output: Israel
 ```
 
 #### 3. **Using EnumMap**
-Efficient for enum keys.
+
+* Efficient for enum keys.
 
 ```java
 enum Status { OK, ERROR, UNKNOWN }
@@ -54,7 +60,7 @@ System.out.println(statusMessages.get(Status.ERROR)); // Output: Something went 
 
 ### 🧩 Use Cases
 
-- **Color mapping** in image processing
+* **Color mapping** in image processing
 - **Command routing** in CLI tools
 - **Configuration settings** in apps
 - **Caching** expensive computations
