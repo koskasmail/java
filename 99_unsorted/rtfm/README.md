@@ -7,6 +7,6 @@
 
 ----- 
  
-<p align="right">(<a href="#topage">back to top</a>)</p>
+<p align="right">(<a href="#topage">rtfmback to top</a>)</p>
 <br/>
 <br/>
