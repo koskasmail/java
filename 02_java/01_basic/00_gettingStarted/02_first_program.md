@@ -2,6 +2,17 @@
 
 # 📘 01.02 — First Java Program
 
+
+
+### 
+
+* Java is Platform Independent, which means that you only need to write the program once 
+   to be able to run it on a number of different platforms (operating system: windows/linux/ubuntu).
+* Java is used to: 
+    * develop apps for Google's Android OS
+    * various Desktop Applications 
+
+
 ### `Statement`
 
 * `Statement` is a line of code that performs a specific task and end with a Semicolon ';'.
