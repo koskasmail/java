@@ -2,16 +2,36 @@
 
 # 📘 01.02 — First Java Program
 
+### `Java program 
 
+* `Java program` is a set of instructions written in the Java programming language.
+* a computer can execute using the Java Virtual Machine (JVM). It typically consists of one or more classes and methods that define the behavior of the application.
 
-### 
+### ☕ Key Components of a Java Program
+- **Class**: The basic building block. Every Java program has at least one class.
+- **Main Method**: The entry point of execution. It looks like `public static void main(String[] args)`.
+- **Statements**: Instructions that perform actions like printing, calculating, or looping.
+- **Compilation**: Java code is compiled into bytecode using the `javac` compiler.
+- **Execution**: Bytecode is run by the JVM, making it platform-independent.
 
-* Java is Platform Independent, which means that you only need to write the program once 
-   to be able to run it on a number of different platforms (operating system: windows/linux/ubuntu).
-* Java is used to: 
-    * develop apps for Google's Android OS
-    * various Desktop Applications 
+### 📄 Example of a Simple Java Program
+```java
+public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello, world!");
+    }
+}
+```
+This program defines a class `HelloWorld` and prints "Hello, world!" to the console when run.
 
+### 🛠️ What Java Programs Are Used For
+- **Desktop applications** (e.g., IDEs like Eclipse)
+- **Web applications** (e.g., using Spring Framework)
+- **Mobile apps** (especially Android)
+- **Enterprise systems** (banking, logistics, etc.)
+- **Games and simulations**
+
+Would you like to see how to compile and run a Java program step-by-step?
 
 ### `Statement`
 
