@@ -20,7 +20,9 @@
 
 ----
 
-<p align="right">(<a href="#topage">back to top</a>)</p>
+### links
+- [ ] [/java/README.md](https://koskasmail.github.io/java/)
+- [ ] [/java/02_java/01_basic/03_javaBasicVariable](https://koskasmail.github.io/java/02_java/01_basic/03_javaBasicVariable/README.md)
 
 <br/>
 <br/>
