@@ -1,8 +1,4 @@
-<a name="topage"></a>
-
-<img alt="koskasmail_neon.png" src="https://koskasmail.github.io/me/me/java/java_neon.png">
-
-# README.md
+# 03_javaBasicVariable
 
 ### Table of Content
 * [03.01_javaBasicVariable.md](https://koskasmail.github.io/java/02_java/01_basic/03_javaBasicVariable/03.01_javaBasicVariable.md)
