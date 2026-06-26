@@ -1,28 +1,16 @@
 <a name="topage"></a>
 
-##### >>>> TODO <<<<
-
-* create a new folder "dictionary"
-* move "02_naming_Converntion.md" content to it
-* etc
-
 # 02_naming Converntion
 
-## Naming_convention
+| Convention | Few Words | Example |
+|-----------|-----------|----------|
+| PascalCase | Capital Each Word | `UserHandler` |
+| camelCase | lower + Capital |  `loadUsers`, `userName` |
+| UPPERCASE | ALL CAPS/UPERCASE + underscore | `MAX_USERS` |
+| lowercase | all lowercase (small letters) |  `bank`, `os` | 
+| snake_case | lower_case_words | `user_id`, `created_at`|
+| kebab-case | lowercase-with-dashes | `user-info`, `main-page` | 
 
-### lowercase 
-
-### UPPERCASE - 
-- example: Class.Name.
-- 
-### camelCase
-### snake_case
-### kebab-case
-### PascalCase 
-- example: Class.Name.
-
-#### rtm 
-https://en.wikipedia.org/wiki/Naming_convention_(programming)  
 
 -----
 
